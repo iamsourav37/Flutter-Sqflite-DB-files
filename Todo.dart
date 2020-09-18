@@ -5,7 +5,7 @@ class Todo {
   String _date;
   int _priority;
 
-  Todo(this._title, this._description, this._date, this._priority);
+  Todo(this._title, this._date, this._priority,[this._description]);
 
   // all getters
 
